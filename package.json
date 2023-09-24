@@ -1,7 +1,7 @@
 {
   "name": "mabby-studios",
   "version": "1.0.0",
-  "homepage": "http://malecks.github.io/mabby-studios",
+  "homepage": "https://abbychornous.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
