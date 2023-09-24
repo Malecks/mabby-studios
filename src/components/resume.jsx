@@ -33,8 +33,10 @@ function Experience() {
 function Position({company, title, date}) {
     return (
         <div className="position">
-            <div className={company ? "company" : "spacer"}>{company ?? null}</div>
-            <div className={title ? "title" : "hidden"}>{title ?? null}</div>
+            <div className="position-header">
+                <div className={company ? "company" : "spacer"}>{company ?? null}</div>
+                <div className={title ? "title" : "hidden"}>{title ?? null}</div>
+            </div>
             <div className="interpunct" />
             <div className="position-date">{date}</div>
         </div>
