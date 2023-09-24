@@ -3,9 +3,9 @@ function Footer() {
 
     return (
         <footer>
-            <div>
+            <h4>
                 abbychornous.com
-            </div>
+            </h4>
             <div>
                 &copy; {currentYear} Abby Chornous
             </div>
