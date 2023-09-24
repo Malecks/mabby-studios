@@ -5,8 +5,14 @@ import Bio from './components/bio';
 import Nav from './components/nav';
 import Footer from './components/footer';
 import About from './components/about';
+import Resume from './components/resume';
 
-
+import React from "react";
+import {
+  HashRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
 
 function App() {
   return (
@@ -17,9 +23,14 @@ function App() {
           <hr />
           <Bio />
           <hr />
-          <Nav />
-          <hr />
-          <About />
+          <Router>
+            <Nav />
+            <hr />
+              <Routes>
+                <Route path="/" element={<About />} />
+                <Route path="/resume" element={<Resume />} />
+              </Routes>
+          </Router>
           <hr />
           <Footer />
       </div>
