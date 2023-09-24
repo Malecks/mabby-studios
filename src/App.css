@@ -58,6 +58,22 @@ hr {
   list-style: none;
 }
 
+
+.nav a {
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav .active {
+  color: black;
+  opacity: 1;
+}
+
 /* Contact */
 .contact {
   display: flex;

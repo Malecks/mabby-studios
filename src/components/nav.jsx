@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Link,
+  NavLink,
 } from "react-router-dom";
 
 function Nav() {
@@ -8,10 +8,10 @@ function Nav() {
         <div className='nav'>
         <ul>
             <li>
-                <Link to='/'>About</Link>
+                <NavLink to='/' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>About</NavLink>
             </li>
             <li>
-                <Link to='/resume'>Resumé</Link>
+                <NavLink to='/resume' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Resumé</NavLink>
             </li>
         </ul>
       </div>
