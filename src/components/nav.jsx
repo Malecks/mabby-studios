@@ -2,8 +2,12 @@ function Nav() {
     return (
         <div className='nav'>
         <ul>
-          <li>About</li>
-          <li>Resumé</li>
+            <li>
+                <button>About</button>
+            </li>
+            <li>
+                <button>Resumé</button>
+            </li>
         </ul>
       </div>
     )
