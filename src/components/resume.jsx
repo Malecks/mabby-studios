@@ -16,10 +16,10 @@ function Experience() {
         <h4>Experience</h4>
         <Position company="Mabby studios." title="Marketing & PR consulting" date="2020–Present"/>
         <Position company="Aritzia" title="Communications" date="2021"/>
-        <Position company="UBC" title="Master's of Business Administration" date="2021"/>
+        <Position company="UBC" title="Master's of Business Administration" date="2020–2022"/>
         <div className="complex-position">
             <Position company="ZOï Agency" date="2016–2021"/>
-            <Position title="Sr. Account executive" date="2019"/>
+            <Position title="Manager" date="2019"/>
             <Position title="Sr. Account executive" date="2018"/>
             <Position title="Coordinator" date="2016"/>
             <Position title="Intern" date="2016"/>
