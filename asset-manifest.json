@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mabby-studios/static/css/main.0daf6214.css",
+    "main.js": "/mabby-studios/static/js/main.a3fe5a6d.js",
+    "static/js/787.e0ede599.chunk.js": "/mabby-studios/static/js/787.e0ede599.chunk.js",
+    "index.html": "/mabby-studios/index.html",
+    "main.0daf6214.css.map": "/mabby-studios/static/css/main.0daf6214.css.map",
+    "main.a3fe5a6d.js.map": "/mabby-studios/static/js/main.a3fe5a6d.js.map",
+    "787.e0ede599.chunk.js.map": "/mabby-studios/static/js/787.e0ede599.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0daf6214.css",
+    "static/js/main.a3fe5a6d.js"
+  ]
+}
