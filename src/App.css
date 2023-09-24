@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+div, p, a, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: #000;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -34,6 +46,15 @@ hr {
   font-size: 1em;
 }
 
+/* Nav */
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  font-size: 1.75em;
+  list-style: none;
+}
+
 /* Contact */
 .contact {
   display: flex;
@@ -56,12 +77,18 @@ hr {
 /* Bio */
 .bio {
   display: flex;
-  width: 50%;
-  font-size: 2em;
+  width: 55%;
+  font-size: 2.25em;
+  color: #619FCC;
+
+  font-family: Playfair Display;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 /* About */
-
 .about {
   display: flex;
   flex-direction: column;
@@ -69,11 +96,23 @@ hr {
   align-items: flex-start;
   gap: .85em;
   align-self: stretch;
-  /* font-family: Inter; */
   font-size: 1.3em;
   font-style: normal;
   font-weight: 400;
   line-height: 1.65em; /* 166.667% */
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+}
+
+footer :first-child {
+  display: flex;
+  flex: 1;  
+  align-self: flex-start;
 }
 
 /* 

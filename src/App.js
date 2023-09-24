@@ -2,6 +2,8 @@ import './App.css';
 import Header from './components/header';
 import Contact from './components/contact';
 import Bio from './components/bio';
+import Nav from './components/nav';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -12,12 +14,7 @@ function App() {
           <hr />
           <Bio />
           <hr />
-          <div className='nav'>
-            <ul>
-              <li>About</li>
-              <li>Resumé</li>
-            </ul>
-          </div>
+          <Nav />
           <hr />
           <div className='about'>
             <p>
@@ -31,6 +28,7 @@ function App() {
             </p>
           </div>
           <hr />
+          <Footer />
       </div>
     </div>
   );

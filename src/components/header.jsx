@@ -1,8 +1,8 @@
 function Header() {
     return(
         <header className="app-header">
-            <a href="/">Mabby studios.</a>
-            <p>{"Vancovuer <-> Toronto, CAN."}</p>
+            <h4>Mabby studios.</h4>
+            <p>Vancovuer &lt;-&gt; Toronto, CAN.</p>
         </header>
     )
 }
