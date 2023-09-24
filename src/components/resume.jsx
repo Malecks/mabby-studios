@@ -46,7 +46,7 @@ function Position({company, title, date}) {
 function Clients() {
     return (
         <section className="clients-and-skills">
-            <h4>Clients and notable accounts</h4>
+            <h4>Clients</h4>
             <p>Tiffany & Co. • Aritzia  • COS • Roots • Frank And Oak • WANT Les Essentiels • Fleur du Mal • Avenue Road • Canadian Arts and Fashion Awards • GOODEE</p>
         </section>
     )
