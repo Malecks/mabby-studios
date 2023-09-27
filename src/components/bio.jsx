@@ -1,7 +1,7 @@
 function Bio() {
     return (
         <h1 className="bio">
-            Abby is a marketing and communications professional, specializing in the intersection of design, fashion, and environment.
+            Abby is a brand marketing professional specializing in the intersection of fashion, outdoors, and sustainability.
         </h1>
     )
 }
