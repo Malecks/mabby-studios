@@ -6,6 +6,7 @@ import Nav from './components/nav';
 import Footer from './components/footer';
 import About from './components/about';
 import Resume from './components/resume';
+import Projects from './components/projects';
 
 import React from "react";
 import {
@@ -29,6 +30,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
+                <Route path="/projects" element={<Projects />} />
               </Routes>
           </Router>
           <hr />
